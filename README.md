@@ -1,5 +1,7 @@
 # 자바 스윙을 통해 만든 점프게임
 
+![image](https://github.com/BrainlessMan901/001/assets/159418229/cf282aa1-f7e5-4cb7-82ed-e17bd90f44a4)
+
 
 ## 도움말
 

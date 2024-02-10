@@ -440,31 +440,31 @@ class jg extends JFrame implements KeyListener, Runnable, MouseListener{
 					if(chx+16>sm.x&&chx+16<=sm.x+8) {
 						if(sss==3) {
 							sss = chy+19 - sm.y;
-							//System.out.println("ÃÖ¼Ò="+sss+" in small "+i);
+							//System.out.println("ìµœì†Œ="+sss+" in small "+i);
 						}
 						else if(sss>chy+19 - sm.y) {
 							sss = chy+19 - sm.y;
-							//System.out.println("ÃÖ¼Ò="+sss+" in small "+i);
+							//System.out.println("ìµœì†Œ="+sss+" in small "+i);
 						}
 					}
 					else if(chx<=sm.x && chx+16>=sm.x+8) {
 						if(sss==3) {
 							sss = chy+19 - sm.y;
-							//System.out.println("ÃÖ¼Ò="+sss+" in small "+i);
+							//System.out.println("ìµœì†Œ="+sss+" in small "+i);
 						}
 						else if(sss>chy+19 - sm.y) {
 							sss = chy+19 - sm.y;
-						    //System.out.println("ÃÖ¼Ò="+sss+" in small "+i);
+						    //System.out.println("ìµœì†Œ="+sss+" in small "+i);
 						}
 					}
 					else if(chx>=sm.x&&chx<sm.x+8) {
 						if(sss==3) {
 							sss = chy+19 - sm.y;
-							//System.out.println("ÃÖ¼Ò="+sss+" in small "+i);
+							//System.out.println("ìµœì†Œ="+sss+" in small "+i);
 						}
 						else if(sss>chy+19 - sm.y) {
 							sss = chy+19 - sm.y;
-							//System.out.println("ÃÖ¼Ò="+sss+" in small "+i);
+							//System.out.println("ìµœì†Œ="+sss+" in small "+i);
 						}
 					}
 				}
@@ -475,21 +475,21 @@ class jg extends JFrame implements KeyListener, Runnable, MouseListener{
 					if(me.x >= chx&&me.x <=chx+16) {
 						if(sss==3) {
 							sss = chy+19 - me.y;
-							//System.out.println("ÃÖ¼Ò="+sss+" in medium "+i);
+							//System.out.println("ìµœì†Œ="+sss+" in medium "+i);
 						}
 						else if(sss>chy+19 - me.y) {
 							sss = chy+19 - me.y;
-							//System.out.println("ÃÖ¼Ò="+sss+" in medium "+i);
+							//System.out.println("ìµœì†Œ="+sss+" in medium "+i);
 						}
 					}
 					else if(me.x+16 >chx&&me.x+16 <=chx+16) {
 						if(sss==3) {
 							sss = chy+19 - me.y;
-							//System.out.println("ÃÖ¼Ò="+sss+" in medium "+i);
+							//System.out.println("ìµœì†Œ="+sss+" in medium "+i);
 						}
 						else if(sss>chy+19 - me.y) {
 							sss = chy+19 - me.y;
-							//System.out.println("ÃÖ¼Ò="+sss+" in medium "+i);
+							//System.out.println("ìµœì†Œ="+sss+" in medium "+i);
 						}
 					}
 				}
@@ -500,31 +500,31 @@ class jg extends JFrame implements KeyListener, Runnable, MouseListener{
 					if(la.x> chx&&la.x <chx+16) {
 						if(sss==3) {
 							sss = chy+19 - la.y;
-							//System.out.println("ÃÖ¼Ò="+sss+" in large "+i);
+							//System.out.println("ìµœì†Œ="+sss+" in large "+i);
 						}
 						else if(sss>chy+19 - la.y) {
 							sss = chy+19 - la.y;
-							//System.out.println("ÃÖ¼Ò="+sss+" in large "+i);
+							//System.out.println("ìµœì†Œ="+sss+" in large "+i);
 						}
 					}
 					else if(la.x+32 > chx&&la.x <chx+16) {
 						if(sss==3) {
 							sss = chy+19 - la.y;
-							//System.out.println("ÃÖ¼Ò="+sss+" in large "+i);
+							//System.out.println("ìµœì†Œ="+sss+" in large "+i);
 						}
 						else if(sss>chy+19 - la.y) {
 							sss = chy+19 - la.y;
-							//System.out.println("ÃÖ¼Ò="+sss+" in large "+i);
+							//System.out.println("ìµœì†Œ="+sss+" in large "+i);
 						}
 					}
 					else if(chx>=la.x && chx+16<=la.x+32) {
 						if(sss==3) {
 							sss = chy+19 - la.y;
-							//System.out.println("ÃÖ¼Ò="+sss+" in large "+i);
+							//System.out.println("ìµœì†Œ="+sss+" in large "+i);
 						}
 						else if(sss>chy+19 - la.y) {
 							sss = chy+19 - la.y;
-							//System.out.println("ÃÖ¼Ò="+sss+" in large "+i);
+							//System.out.println("ìµœì†Œ="+sss+" in large "+i);
 						}
 					}
 				}
@@ -1001,13 +1001,13 @@ class jg extends JFrame implements KeyListener, Runnable, MouseListener{
 				}
 				maxx=idid;
 				if(jijk>0) {
-					System.out.println(jijk+"°³ÀÇ ÀúÀåµÈ ¸ÊÀÌ ÀÖ½À´Ï´Ù");
+					System.out.println(jijk+"ê°œì˜ ì €ì¥ëœ ë§µì´ ìˆìŠµë‹ˆë‹¤");
 					main=1;
 					mode=10;
 				}
 				else {
-					Message m = new Message("ÀúÀåµÈ ¸ÊÀÌ ¾ø½À´Ï´Ù");
-					System.out.println("ÀúÀåµÈ ¸ÊÀÌ ¾ø½À´Ï´Ù");
+					Message m = new Message("ì €ì¥ëœ ë§µì´ ì—†ìŠµë‹ˆë‹¤");
+					System.out.println("ì €ì¥ëœ ë§µì´ ì—†ìŠµë‹ˆë‹¤");
 				}
 				loading =0;
 			}
@@ -1025,7 +1025,7 @@ class jg extends JFrame implements KeyListener, Runnable, MouseListener{
 					System.out.println("previous page");
 					page -=1;
 				}else {
-					Message m = new Message("ÃÖ¼Ò ÆäÀÌÁöÀÔ´Ï´Ù");
+					Message m = new Message("ìµœì†Œ í˜ì´ì§€ì…ë‹ˆë‹¤");
 				}
 				
 			}
@@ -1051,7 +1051,7 @@ class jg extends JFrame implements KeyListener, Runnable, MouseListener{
 						page+=1;
 					}
 					else {
-						Message m = new Message("ÃÖ´ë ÆäÀÌÁöÀÔ´Ï´Ù");
+						Message m = new Message("ìµœëŒ€ í˜ì´ì§€ì…ë‹ˆë‹¤");
 					}
 					
 				}
@@ -1149,7 +1149,7 @@ class jg extends JFrame implements KeyListener, Runnable, MouseListener{
 	    	int xx = (int)(screens.getWidth() / 2 -125);
 			int yy = (int)(screens.getHeight() / 2 - 17);
 			setLocation(xx, yy);
-	        Font font1 = new Font("¸¼Àº °íµñ", Font.BOLD, 20);
+	        Font font1 = new Font("ë§‘ì€ ê³ ë”•", Font.BOLD, 20);
 	        JButton bt = new JButton(mes);
 	        bt.setBackground(new Color(255,255,255));
 	        add(bt);
@@ -1174,8 +1174,8 @@ class jg extends JFrame implements KeyListener, Runnable, MouseListener{
 	    	int xx = (int)(screens.getWidth() / 2 -200);
 			int yy = (int)(screens.getHeight() / 2 - 60);
 			setLocation(xx, yy);
-	        Font font1 = new Font("¸¼Àº °íµñ", Font.BOLD, 15);
-	        JButton bt = new JButton("<html><body><center>1,2,3,4,5,6À» ´­·¯ µµ±¸¸¦ ¹Ù²Ü ¼ö ÀÖ½À´Ï´Ù<br>¿ŞÂÊ ÇÏ´ÜÀÇ ¹öÆ°À» ´­·¯ µµ¿ò¸»À» º¼ ¼ö ÀÖ½À´Ï´Ù<br>enter¸¦ ´­·¯ ¸ÊÀ» ½ÇÇà ÇÒ ¼ö ÀÖ°í<br>Å¬¸®¾îÇÏ¸é ¿ŞÂÊ À§ÀÇ ÀúÀå ¹öÆ°À» ´­·¯<br>¸ÊÀ» ÀúÀåÀ» ÇÏ°Å³ª ºÒ·¯¿Ã ¼ö ÀÖ½À´Ï´Ù<br>(Å¬¸¯ÇÏ¿© Ã¢ ´İ±â)</center></body></html>");
+	        Font font1 = new Font("ë§‘ì€ ê³ ë”•", Font.BOLD, 15);
+	        JButton bt = new JButton("<html><body><center>1,2,3,4,5,6ì„ ëˆŒëŸ¬ ë„êµ¬ë¥¼ ë°”ê¿€ ìˆ˜ ìˆìŠµë‹ˆë‹¤<br>ì™¼ìª½ í•˜ë‹¨ì˜ ë²„íŠ¼ì„ ëˆŒëŸ¬ ë„ì›€ë§ì„ ë³¼ ìˆ˜ ìˆìŠµë‹ˆë‹¤<br>enterë¥¼ ëˆŒëŸ¬ ë§µì„ ì‹¤í–‰ í•  ìˆ˜ ìˆê³ <br>í´ë¦¬ì–´í•˜ë©´ ì™¼ìª½ ìœ„ì˜ ì €ì¥ ë²„íŠ¼ì„ ëˆŒëŸ¬<br>ë§µì„ ì €ì¥ì„ í•˜ê±°ë‚˜ ë¶ˆëŸ¬ì˜¬ ìˆ˜ ìˆìŠµë‹ˆë‹¤<br>(í´ë¦­í•˜ì—¬ ì°½ ë‹«ê¸°)</center></body></html>");
 	        bt.setBackground(new Color(255,255,255));
 	        bt.setSize(410,200);
 	        add(bt);
@@ -1199,8 +1199,8 @@ class jg extends JFrame implements KeyListener, Runnable, MouseListener{
 	    	int xx = (int)(screens.getWidth() / 2 -200);
 			int yy = (int)(screens.getHeight() / 2 - 60);
 			setLocation(xx, yy);
-	        Font font1 = new Font("¸¼Àº °íµñ", Font.BOLD, 15);
-	        JButton bt = new JButton("<html><body><center>1 : ÀÛÀº ºí·°   2 : Áß°£ ºí·°<br>3 : Å« ºí·°   4 : Áö¿ì°³<br>5 : ½ÃÀÛ ÁöÁ¡   6 : µµÂø ÁöÁ¡<br>enter : ½ÇÇà<br>backspace : ½ÇÇà Á¤Áö<br>(Å¬¸¯ÇÏ¿© Ã¢ ´İ±â)</center></body></html>");
+	        Font font1 = new Font("ë§‘ì€ ê³ ë”•", Font.BOLD, 15);
+	        JButton bt = new JButton("<html><body><center>1 : ì‘ì€ ë¸”ëŸ­   2 : ì¤‘ê°„ ë¸”ëŸ­<br>3 : í° ë¸”ëŸ­   4 : ì§€ìš°ê°œ<br>5 : ì‹œì‘ ì§€ì    6 : ë„ì°© ì§€ì <br>enter : ì‹¤í–‰<br>backspace : ì‹¤í–‰ ì •ì§€<br>(í´ë¦­í•˜ì—¬ ì°½ ë‹«ê¸°)</center></body></html>");
 	        bt.setBackground(new Color(255,255,255));
 	        bt.setSize(410,200);
 	        add(bt);
